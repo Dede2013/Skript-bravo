@@ -1,4 +1,4 @@
--- Serviços do Roblox
+ -- Serviços do Roblox
 local CoreGui = game:GetService("CoreGui")
 local VirtualInputManager = game:GetService("VirtualInputManager")
 local Players = game:GetService("Players")
@@ -140,4 +140,3 @@ ToggleButton.MouseButton1Click:Connect(function()
         ToggleButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
     end
 end)
-
